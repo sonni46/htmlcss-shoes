@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .container{
     margin: 0 auto;
     font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -28,7 +30,7 @@
     background-color: green;
 }
 
-.yello {
+.yellow {
     background-color: yellow;
 }
 
@@ -42,7 +44,7 @@
 
 }
 
-.yello h2 {
+.yellow h2 {
     color: green;
 }
 
@@ -50,3 +52,22 @@ h2 {
     text-align: center;
     color: yellow;
 }
+
+.nav {
+    position:absolute;
+    top: 2%;
+    right: 0%;
+}
+
+.nav a {
+    display: inline-block;
+    border-radius: 35%;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    
+}
+
